@@ -25,10 +25,10 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i, len = size;
 	int bubbly = 0;
-	
+
 	if (array == NULL || size < 2)
 		return;
-	
+
 	while (bubbly == 0)
 	{
 		bubbly = 1;
@@ -44,3 +44,4 @@ void bubble_sort(int *array, size_t size)
 		len--;
 	}
 }
+
